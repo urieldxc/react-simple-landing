@@ -12,6 +12,13 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+import game1 from "../assets/images/game1.jpg"
+import game2 from "../assets/images/game2.jpg"
+import game3 from "../assets/images/game3.jpg"
+import game4 from "../assets/images/game4.jpg"
+import game5 from "../assets/images/game5.jpg"
+import game6 from "../assets/images/game6.jpg"
+
 export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
@@ -58,42 +65,42 @@ export const testimonials = [
   },
 ];
 
-export const features = [
+export const games = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    image: game1,
+    name: "Echoes of Eternity: The Lost Kingdom",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "In a world where memories shape reality, you play as a guardian tasked with restoring the lost kingdom of Eternia. Journey through time, uncover ancient secrets, and battle formidable foes in this epic RPG. Your choices will determine the fate of the realm.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    image: game5,
+    name: "Starlight Expedition: Galactic Frontier",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Embark on a thrilling space adventure in Starlight Expedition. As the captain of an interstellar crew, explore uncharted planets, engage in intense space battles, and forge alliances with alien civilizations. The galaxy's future is in your hands.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    image:  game6,
+    name: "Mystic Forge: Legends of the Arcane",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "In a land where magic and craftsmanship intertwine, you are an apprentice of the Mystic Forge. Craft powerful artifacts, unravel ancient spells, and defend the kingdom from dark forces. Your journey to becoming a master arcane smith begins now.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    image: game4,
+    name: "Shadowstrike: The Assassin's Creed",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Step into the shadows as a master assassin in Shadowstrike. Navigate a sprawling city filled with secrets, intrigue, and danger. Use stealth, cunning, and lethal skills to eliminate targets and uncover a conspiracy that threatens the realm.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    image:  game2,
+    name: "Verdant Valley: Farming Chronicles",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Escape to the peaceful Verdant Valley, where you can build and manage your own farm. Grow crops, raise animals, and engage with a vibrant community of characters. Discover hidden treasures and uncover the valley's rich history in this relaxing simulation game.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    image: game3,
+    name: "Chrono Sentinel: Guardians of Time",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "As a Chrono Sentinel, your mission is to protect the timeline from chaotic disruptions. Travel through different eras, solve intricate puzzles, and battle time-warped enemies. Balance the past, present, and future to ensure the continuity of history.",
   },
 ];
 
